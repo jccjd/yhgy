@@ -1,0 +1,4 @@
+document.write('<li class="m"><h3><a target="_blank" href="test4.php">首&nbsp;&nbsp;页</a></h3></li><li class="m"><h3><a target="_blank" href="">走进壹号果元</a></h3><ul class="sub"><li><a href="detail.html" title="公司简介">公司简介</a></li><li><a href="/list/?cType=s&cID=28" title="企业文化">企业文化</a></li><li><a href="/list/?cType=s&cID=30" title="联系我们">联系我们</a></li></ul></li><li class="m"><h3><a target="_blank" href="/list/?cType=b&cID=7">产品展示</a></h3></li><li class="m"><h3><a target="_blank" href="/list/?cType=b&cID=8">新闻动态</a></h3><ul class="sub"><li><a href="/list/?cType=s&cID=38" title="公司动态">公司动态</a></li><li><a href="/list/?cType=s&cID=39" title="行业动态">行业动态</a></li></ul></li><li class="m"><h3><a target="_blank" href="/list/?cType=b&cID=14">客户服务</a></h3></li><li class="m"><h3><a target="_blank" href="/list/?cType=b&cID=15">加入我们</a></h3></li>')
+
+
+

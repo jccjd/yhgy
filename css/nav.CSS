@@ -1,0 +1,109 @@
+
+.navBar {
+	width:100%;
+	margin:0 auto;
+	height:50px;
+	line-height:80px;
+	margin-top: 23px;
+}
+.navBar li{ list-style: none}
+.nav {
+	position:relative;
+
+	margin:0 auto;
+	font-family:"Microsoft YaHei",SimSun,SimHei;
+	font-size:17px;
+}
+
+.nav h3 {
+	font-size:100%;
+	font-weight:normal;
+}
+.nav .m {
+	float:left;
+	position:relative;
+	z-index:99;
+}
+.nav .s {
+	float:left;
+	width:3px;
+	text-align:center;
+	color:#D4D4D4;
+	font-size:12px;
+}
+.nav h3 a {
+	display:block;
+	width:115px;
+	text-align:center;
+	color: #666666;
+	text-decoration: none;
+}
+.nav h3 a:hover{color: #00B142;}
+.nav .sub {
+	display:none;
+	position:absolute;
+	left:-3px;
+	top:65px;
+	z-index:1;
+	width:117px;
+	border:1px solid #E6E4E3;
+	border-top:0;
+	background:#fff;
+}
+.nav .sub li {
+	text-align:center;
+	padding:0 8px;
+	margin-bottom:-1px;
+}
+.nav .sub li a {
+	display:block;
+	border-bottom:1px solid #E6E4E3;
+	padding:8px 0;
+	height:28px;
+	line-height:28px;
+	color:#000;
+	font-size:14px;
+	text-decoration: none;
+}
+.nav .sub li a:hover {
+	color:#FE7700;
+}
+.nav .block {
+	height:3px;
+	width:115px;
+	background:#FE7700;
+	position:absolute;
+	left:0px;
+	top:60px;
+	overflow:hidden;
+}
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix10:after {
+	content:".";
+	display:block;
+	height:10px;
+	clear:both;
+	visibility:hidden;
+}
+.h10{height:10px;}
+.h15{height:15px;}
+
+/* 浜у搧灞曠ずcss */
+/* 鍥剧墖婊氬姩 */
+.picScroll{ position:relative;  height:170px; padding: 5px 0 5px 42px;overflow:hidden;   }
+.picScroll ul{ overflow:hidden; zoom:1; }
+.picScroll ul li{ float:left; margin: 0 6px;  width:240px; overflow:hidden; display:inline; }
+.picScroll ul li img{ width:250px; height:140px; }
+.picScroll .prev,
+.picScroll .next{ position:absolute;  left:10px; top: 60px; display:block; width:18px; height:28px; overflow:hidden; background:url(../images/icons.png) -40px 0 no-repeat; cursor:pointer;  }
+.picScroll .next{ left:auto; right:10px; background-position:-120px 0; }
+.picScroll .prevStop{ background-position:0 0; }
+.picScroll .nextStop{ background-position:-80px 0; }
+.picScroll .tempWrap ul li .title{ text-align: center}

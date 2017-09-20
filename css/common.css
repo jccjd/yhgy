@@ -1,0 +1,101 @@
+@charset "utf-8";
+/*周口优易盛网络科技有限公司版权所有
+www.zkuse.com  zkues@sina.com
+未经允许 谢绝使用！
+2016年7月24日
+ */
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Microsoft YaHei";
+}
+body{ font-size: 14px}
+.top{
+    width:100%;
+    height:20px;
+    line-height:20px;
+    /*background:#00B142;*/
+    background:#005032;
+    color: #FFF;
+    /*font-size: 1rem;*/
+    font-size: 12px;
+    text-align: right;
+    min-width: 1140px;
+}
+.top img{ vertical-align: middle; margin-right: 5px;}
+.top span{ display: inline-block; margin: 0 10px;}
+.top_con{ width: 1120px; margin: 0 auto; padding-right: 20px;}
+.top a{color:#FFFFFF; text-decoration:none;}
+
+.logoMenu{
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo{
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    color: #0E462F;
+    font-size: 30px;
+    /*line-height: 100px;*/
+    padding-left: 40px;
+    vertical-align: middle;
+}
+.myNav{
+    width: 700px;
+    height: 100px;
+}
+.logo,.myNav{
+    float: left;
+}
+
+.ad{
+    width: 100%;
+    min-width: 1140px;
+}
+.ad img{
+    max-width: 100%;
+    height: auto;
+}
+
+.copyright{
+    height: 106px;
+    width: 100%;
+    /*background: #156A05;*/
+    background:#005032;
+    margin-top: 30px;
+    min-width: 1140px;
+}
+.copyCon{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 10px 0 0 30px;
+    color: #D0D0D0;
+    font-size: 12px;
+}
+.copyCon li{
+    list-style: none;
+    float: left;
+    margin-right: 75px;
+    line-height: 22px;
+}
+.copyCon a{ color: #D0D0D0; text-decoration: none}
+
+
+.clear{
+    clear: both;
+    height:0px;
+    font-size: 0px;
+}
+a{webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+.qrcode{
+    width:150px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: -35px;
+    z-index: 999;
+    display: none;
+}
+.f_16{font-size: 16px; font-weight: bold}

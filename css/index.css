@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*周口优易盛网络科技有限公司版权所有
+www.zkuse.com  zkues@sina.com
+未经允许 谢绝使用！
+2016年7月24日
+ */
+
+.newsBox{
+	width: 1140px;
+	margin: 40px auto 10px auto;
+}
+.news{
+	width: 30%;
+	float: left;
+	padding: 0 1.66%;
+}
+.newsTitle{
+	font-size: 16px;
+	font-weight: bold;
+	background: url("../images/line_bg.jpg") no-repeat left center;
+	height: 33px;
+}
+.newsTitle span{
+	float: right;
+	font-size: 12px;
+}
+.newsTitle a{
+	color: #B1B1B1;
+	text-decoration: none;
+	font-size: 20px;
+}
+.newsTitle h3{
+	float: left;
+	color: #666666;
+	padding-left: 20px;
+}
+.newsCon{
+	margin-top: 10px;
+}
+.newsCon li{
+	list-style: none;
+	line-height: 30px;
+	/*border-bottom: 1px dotted #E8E8E8;*/
+}
+#comNews li{
+	background: url("../images/li_bg.gif") no-repeat left center;
+	padding-left: 10px;
+}
+.newsCon a{
+	text-decoration: none;
+	color: #666666;
+}
+.newsCon a:hover{
+	color: #189912;
+}
+.newsCon span{
+	float: right;
+}

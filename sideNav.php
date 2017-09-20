@@ -1,0 +1,1 @@
+document.write('<h3>走进壹号果元</h3><div class="news_type_content"><ul><li><a href="/list/?cType=s&cID=26">公司简介</a></li><li><a href="/list/?cType=s&cID=28">企业文化</a></li><li><a href="/list/?cType=s&cID=30">联系我们</a></li></ul></div>')
